@@ -3,11 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import Card from './components/Card';
+import katieZaferesImg from './images/katie-zaferes.png';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Navbar />
+    <Hero />
+    <Card img={katieZaferesImg} rating="5.0" reviewCount={6} country="USA" title="Life Lessons with Katie Zaferes" price={136} />
   </React.StrictMode>
 );
 

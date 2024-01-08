@@ -1,0 +1,38 @@
+#cardContainer {
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.cardImg {
+    height: 235px;
+    width: 176px;
+}
+
+#starSpan {
+    display: flex;
+    flex-direction: row;
+    /* vertical-align: middle; */
+    margin-bottom: 4px;
+    align-items: center;
+}
+
+.starImg {
+    height: 14px;
+    width: 14px;
+}
+
+.lightFont {
+    font-weight: 400;
+}
+
+.cardTxtLine {
+    margin-block: 4px;
+}
+
+.grayText {
+    color: #918E9B;
+}
